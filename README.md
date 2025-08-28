@@ -1,2 +1,23 @@
-# Central_Planilhas_PTS
-Controle de Planilhas Pts
+# Central de Planilhas (Streamlit) — Tema Shopee
+
+App Streamlit para centralizar links de Google Sheets (laranja e branco), com:
+- cadastro/edição, tags, categorias
+- arquivar/restaurar (lixeira) e exclusão definitiva
+- import/export CSV
+- persistência local em `links_db.csv` (ignorado no git por padrão)
+
+## Rodar localmente
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Estrutura
+```
+.
+├─ app.py
+├─ requirements.txt
+├─ .gitignore
+└─ .streamlit/
+   └─ config.toml
+```
