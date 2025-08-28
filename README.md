@@ -1,6 +1,6 @@
 # Central de Planilhas (Streamlit) — Tema Shopee
 
-App Streamlit para centralizar links de Google Sheets (laranja e branco), com:
+App em Streamlit para centralizar links de Google Sheets com:
 - cadastro/edição, tags, categorias
 - arquivar/restaurar (lixeira) e exclusão definitiva
 - import/export CSV
